@@ -1,0 +1,80 @@
+body {
+    font-family: "Lemon Milk Regular";
+    src: url('fonts/LEMONMILK-Regular.otf') format('otf');
+    background-color: #7daf9c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #825b86;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label,
+.login-form input {
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    background-color: #d9bdc5;
+    color: #191516;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Lemon Milk Regular";
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #be94a0;
+    color: #fff;
+}
+
+.button {
+    background-color: #d9bdc5;
+    color: #191516;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Lemon Milk Regular";
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #be94a0;
+    color: #fff;
+}
+
+input[type="text"] {
+    font-family: "Lemon Milk Regular";
+}

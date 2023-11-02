@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eco Chef - Coș</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="stylecart.css">
+</head>
+<form>
+    <div class="container">
+        <h1>Coșul tău de cumpărături</h1><br>
+        <form class="cart-form" action="/cart" method="post"></form>
+        <div class="product">
+            <img src="images/milk.png" alt="Product Image">
+            <div class="product-info">
+                <h2>Lapte de vacă 3,5% grăsime</h2>
+                <p>Preț unitar: 6.50 lei</p><br>
+                <div class="quantity">
+                    <button class="quantity-button" onclick="decreaseQuantity1()">-</button>
+                    <input type="number" class="quantityinput1" value="1">
+                    <button class="quantity-button" onclick="increaseQuantity1()">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/eggs.png" alt="Product Image">
+            <div class="product-info">
+                <h2>Ouă de găină Categoria A</h2>
+                <p>Preț unitar: 6.50 lei</p><br>
+                <div class="quantity">
+                    <button class="quantity-button" onclick="decreaseQuantity2()">-</button>
+                    <input type="number" class="quantityinput2" value="1">
+                    <button class="quantity-button" onclick="increaseQuantity2()">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/butter.png" alt="Product Image">
+            <div class="product-info">
+                <h2>Napolact Unt 65% grăsime</h2>
+                <p>Preț unitar: 6.50 lei</p><br>
+                <div class="quantity">
+                    <button class="quantity-button" onclick="decreaseQuantity3()">-</button>
+                    <input type="number" class="quantityinput3" value="1">
+                    <button class="quantity-button" onclick="increaseQuantity3()">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <p>Preț total: 19.50 lei</p><br>
+            <a class="button" type="submit">Plasează comanda</a>
+        </div>
+    </div>
+    </form>
+    <script src="cartscript.js"></script>
+</body>
+</html>

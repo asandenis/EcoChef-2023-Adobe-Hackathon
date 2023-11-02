@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lemon Milk Regular";
+    src: url('fonts/LEMONMILK-Regular.otf') format('otf');
+    background-color: #7daf9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #825b86;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    font-size: 14px;
+}
+
+.cart-total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d9bdc5;
+    color: #191516;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #be94a0;
+    color: #fff;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-button {
+    width: 30px;
+    height: 30px;
+    background-color: #d9bdc5;
+    color: #191516;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.quantity-button:hover {
+    background-color: #be94a0;
+    color: #fff;
+}
+
+.quantityinput1 {
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    outline: none;
+}
+
+.quantityinput2 {
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    outline: none;
+}
+
+.quantityinput3 {
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    outline: none;
+}
+
+input[type="number"] {
+    font-family: "Lemon Milk Regular";
+}
