@@ -1,0 +1,47 @@
+.punctaj {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .rewards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-content: center;
+  }
+  
+  .reward1, .reward2, .reward3{
+    background-color: #825b86;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 45%;
+  }
+  
+  .reward-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+    background-color: #825b86;
+  }
+  
+  .img-produs {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .buton-produs {
+    background-color: #23967f;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
