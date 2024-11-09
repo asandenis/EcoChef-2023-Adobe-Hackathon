@@ -69,7 +69,9 @@ npm install react-scripts
 </pre>
 
 <h2 id="usage" style="color: #4A90E2;">🚀 Usage</h2>
-<p>To start using the project, run:</p>
+<p>To start using the project:</p>
+<p>Add valid credentials to server/.env (MySQL database).</p>
+<p>Then run:</p>
 
 <p>First terminal (for the server):</p>
 
