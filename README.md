@@ -3,7 +3,7 @@
 <h3 style="color: #555;">Food-Waste Management Platform. 2023 ITFest Adobe Hackathon.</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/Enr8zfb.png" width="200" alt="Project Logo">
+  <img src="https://i.imgur.com/Enr8zfb.png" width="200" alt="EcoChef Logo">
 </p>
 
 <p align="center">
@@ -35,15 +35,15 @@
     React
   </li>
   <li>
-    <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width="24" alt="Vite Icon" />
+    <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" width="24" alt="Node.js Icon" />
     Node.js
   </li>
   <li>
-    <img src="https://www.svgrepo.com/show/353855/handlebars.svg" width="24" alt="Vite Icon" />
+    <img src="https://www.svgrepo.com/show/353855/handlebars.svg" width="24" alt="Handlebars Icon" />
     Handlebars
   </li>
   <li>
-    <img src="https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg" width="24" alt="Vite Icon" />
+    <img src="https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg" width="24" alt="MySQL Icon" />
     MySQL
   </li>
   <li>
