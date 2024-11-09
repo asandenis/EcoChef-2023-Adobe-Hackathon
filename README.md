@@ -3,7 +3,7 @@
 <h3 style="color: #555;">Food-Waste Management Platform. 2023 ITFest Adobe Hackathon.</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/Enr8zfb.png" width="500" alt="Project Logo">
+  <img src="https://i.imgur.com/Enr8zfb.png" width="200" alt="Project Logo">
 </p>
 
 <p align="center">
